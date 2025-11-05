@@ -2,14 +2,75 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        int age = 16;
+        if (age >= 18) {
+            System.out.println("Если возраст человека равен, " + age + " то  он совершеннолетний");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+
+        } else {
+            System.out.println("Если возраст человека равен, " + age + " он не достиг совершеннолетия, нужно немного подождать");
+        }
+        //задача 2
+        int streetTemp = 0;
+        if (streetTemp < 5) {
+            System.out.println("На улице " + streetTemp + " градусов,нужно надеть шапку");
+        } else {
+            System.out.println("На улице " + streetTemp + " градусов,можно идти без шапки");
+
+
+        }
+        //задача 3
+        int speed = 50;
+        if (speed > 60) {
+            System.out.println("Если скорость, " + speed + " то  придется заплатить штраф");
+        } else {
+            System.out.println("Если скорость, " + speed + " то можно ездить спокойно");
+        }
+        //задача 4
+        int age2 = 106;
+        if (age2 > 2 && age2 <= 6) {
+            System.out.println("Если возраст человека равен, " + age2 + " то ему нужно ходить в детский сад");
+        }
+        if (age2 >= 7 && age2 <= 17) {
+            System.out.println("Если возраст человека равен, " + age2 + " то ему нужно ходить в школу");
+        }
+        if (age2 >= 18 && age2 <= 24) {
+            System.out.println("Если возраст человека равен, " + age2 + " то ему нужно ходить в университет");
+        }
+        if (age2 > 24) {
+            System.out.println("Если возраст человека равен, " + age2 + " то ему нужно ходить на работу");
+        }
+        //задача 5
+        int age3 = 15;
+        if (age3 < 5) {
+            System.out.println("Если возраст ребенка равен, " + age3 + " то ему нельзя кататься на аттракционе");
+        }
+        if (age3 >= 5 && age3 <= 14 ) {
+            System.out.println("Если возраст ребенка равен, " + age3 + " то ему можно кататься на аттракционе в сопровождении ");
+
+        }else {
+            System.out.println("Если возраст ребенка равен, " + age3 + " то ему можно кататься на аттракционе без сопровождения взрослого");
+        }
+        //задача 6
+        int passangers = 15;
+        if (passangers >=60  ){
+            System.out.println("No sititng places");
+
+        } else {
+            System.out.println("Sits avaliable");
+        }if (passangers >= 102) {
+            System.out.println("Train is full");
+        }
+        //задача 7
+        int one = 10;
+        int two = 40;
+        int three = 30;
+        if (one > two && one > three){
+            System.out.println("One - самое большое число");
+        } if (two > one && two > three) {
+            System.out.println("Two - самое большое число ");
+        } else {
+            System.out.println("Three - самое большое число");
         }
     }
 }
