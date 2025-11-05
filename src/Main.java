@@ -45,29 +45,31 @@ public class Main {
         if (age3 < 5) {
             System.out.println("Если возраст ребенка равен, " + age3 + " то ему нельзя кататься на аттракционе");
         }
-        if (age3 >= 5 && age3 <= 14 ) {
+        if (age3 >= 5 && age3 <= 14) {
             System.out.println("Если возраст ребенка равен, " + age3 + " то ему можно кататься на аттракционе в сопровождении ");
 
-        }else {
+        } else {
             System.out.println("Если возраст ребенка равен, " + age3 + " то ему можно кататься на аттракционе без сопровождения взрослого");
         }
         //задача 6
         int passangers = 15;
-        if (passangers >=60  ){
+        if (passangers >= 60) {
             System.out.println("No sititng places");
 
         } else {
             System.out.println("Sits avaliable");
-        }if (passangers >= 102) {
+        }
+        if (passangers >= 102) {
             System.out.println("Train is full");
         }
         //задача 7
         int one = 10;
-        int two = 40;
+        int two = 20;
         int three = 30;
-        if (one > two && one > three){
+        if (one > two && one > three) {
             System.out.println("One - самое большое число");
-        } if (two > one && two > three) {
+        }
+        if (two > one && two > three) {
             System.out.println("Two - самое большое число ");
         } else {
             System.out.println("Three - самое большое число");
