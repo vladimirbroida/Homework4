@@ -52,14 +52,14 @@ public class Main {
             System.out.println("Если возраст ребенка равен, " + age3 + " то ему можно кататься на аттракционе без сопровождения взрослого");
         }
         //задача 6
-        int passangers = 15;
-        if (passangers >= 60) {
-            System.out.println("No sititng places");
-
-        } else {
+        int passangers = 70;
+        if (passangers < 60) {
             System.out.println("Sits avaliable");
+
+        } else if (passangers >= 60 && passangers<= 102){
+            System.out.println("Standing places avaliable");
         }
-        if (passangers >= 102) {
+        else  {
             System.out.println("Train is full");
         }
         //задача 7
