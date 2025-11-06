@@ -56,10 +56,9 @@ public class Main {
         if (passangers < 60) {
             System.out.println("Sits avaliable");
 
-        } else if (passangers >= 60 && passangers<= 102){
+        } else if (passangers >= 60 && passangers <= 102) {
             System.out.println("Standing places avaliable");
-        }
-        else  {
+        } else {
             System.out.println("Train is full");
         }
         //задача 7
